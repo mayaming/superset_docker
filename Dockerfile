@@ -8,7 +8,7 @@ RUN apt-get install -y unixodbc unixodbc-dev
 
 RUN pip install --upgrade setuptools pip
 
-RUN pip install superset
+RUN pip install superset==0.18.4
 
 RUN pip install mysqlclient pymssql pyhive pyodbc
 
